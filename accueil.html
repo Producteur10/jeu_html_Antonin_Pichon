@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Aventure</title>
+</head>
+<body>
+
+  <div id="p1">
+    <h1>Aventure</h1>
+    <h4>Cela est le début de ton <br>aventure en tant que héros</h4>
+    <a href="#" onclick="document.getElementById('p1').style.display='none'; document.getElementById('p2').style.display='block'; return false;">Aller à la page 2</a>
+  </div>
+
+  <div id="p2" style="display:none">
+    <h1>Page 2</h1>
+    <p>
+        Cela est le début de ton<br>
+        aventure en tant que héros
+    </p>
+    <a href="#" onclick="document.getElementById('p2').style.display='none'; document.getElementById('p1').style.display='block'; return false;">Retour page 1</a>
+  </div>
+
+  <br><br>
+  <a href="commentaire.php">Accéder aux commentaires</a>
+  <p><a href="les_pages/jeu.html">Accéder au jeu</a></p>
+
+
+
+</body>
+</html>

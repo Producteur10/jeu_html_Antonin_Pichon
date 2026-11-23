@@ -1,0 +1,50 @@
+z {
+    color: blue;
+}
+body {
+    background-image: url("https://i.pinimg.com/originals/73/ae/96/73ae96834c0caa64846f1ce4a37794ee.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+	
+}
+
+.mon-texte {
+    position: absolute;
+    top: 200px;   /* Distance depuis le haut de l'écran */
+    left: 470px;  /* Distance depuis la gauche de l'écran */
+}
+.accueil {
+    position: absolute;
+    top: 200px;     /* Distance depuis le haut */
+    left: 450px;   /* Distance depuis la droite */
+    width: 400px;  /* Largeur de l'image (la hauteur s'adapte automatiquement) */
+}
+
+.commentaire {
+    position: absolute;
+    top: 700px;     /* Distance depuis le haut */
+    left: 150px;   /* Distance depuis la droite */
+    width: 250px;  /* Largeur de l'image (la hauteur s'adapte automatiquement) */
+}
+
+.jouer {
+    position: absolute;
+    top: 700px;     /* Distance depuis le haut */
+    right: 150px;   /* Distance depuis la droite */
+    width: 250px;  /* Largeur de l'image (la hauteur s'adapte automatiquement) */
+}
+
+.texte-jouer {
+    position: absolute;
+    top: 725px;     /* Distance depuis le haut */
+    right: 245px;   /* Distance depuis la droite */
+    
+}
+
+.texte-com {
+    position: absolute;
+    top: 725px;     /* Distance depuis le haut */
+    left: 175px;   /* Distance depuis la droite */
+}
